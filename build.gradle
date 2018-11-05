@@ -7,7 +7,7 @@ dependencies {
     compile 'commons-pool:commons-pool:1.4'
     compile 'com.google.guava:guava:19.0'
 
-    // weil im jre 1.6 nur ein alter xalan (2.6.0) enthalten ist, muss noch eine aktuelle version eingebunden werden, sonst funktionier z.b. die vbs-wird-prep.xsl nicht
+    // weil im jre 1.6 nur ein alter xalan (2.6.0) enthalten ist, muss noch eine aktuelle version eingebunden werden, sonst funktionier z.b. ... nicht
     compile 'xalan:xalan:2.7.1'
 
     compile 'log4j:log4j:1.2.17'
