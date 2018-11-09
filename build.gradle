@@ -5,14 +5,14 @@ dependencies {
     compile 'org.apache.commons:commons-lang3:3.5'
     compile 'commons-net:commons-net:3.1'
     compile 'commons-pool:commons-pool:1.4'
-    compile 'com.google.guava:guava:19.0'
+    compile 'com.google.guava:guava:20.0'
 
     // weil im jre 1.6 nur ein alter xalan (2.6.0) enthalten ist, muss noch eine aktuelle version eingebunden werden, sonst funktionier z.b. ... nicht
     compile 'xalan:xalan:2.7.1'
 
     compile 'log4j:log4j:1.2.17'
-    compile 'org.apache.poi:poi:3.14'
-    compile ('org.apache.poi:poi-ooxml:3.14') { 
+    compile 'org.apache.poi:poi:3.17'
+    compile ('org.apache.poi:poi-ooxml:3.17') { 
     	exclude group:'stax', module:'stax-api' 
     }
 
