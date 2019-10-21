@@ -6,7 +6,7 @@ dependencies {
     compile 'org.apache.commons:commons-lang3:3.5'
     compile 'commons-net:commons-net:3.1'
     compile 'commons-pool:commons-pool:1.4'
-    compile 'com.google.guava:guava:20.0'
+    compile 'com.google.guava:guava:28.1-jre'
     compile 'xalan:xalan:2.7.1'
     compile 'net.sf.saxon:Saxon-HE:9.8.0-12'
     compile 'log4j:log4j:1.2.17'
