@@ -29,7 +29,6 @@ dependencies {
         compile 'commons-httpclient:commons-httpclient:2.0.2'                                                                    
         compile 'ant:ant:1.6.5'  //     compile ('org.apache.ant:ant:1.7.0@jar')                                                 
         compile 'oro:oro:2.0.8'                                                                                                  
-        xnocompile = true                                                                                                        
     compile 'commons-lang:commons-lang:2.1'                                                                                      
     compile 'axis:axis-ant:1.4'                                                                                                  
     compile ('axis:axis:1.4')                                                                                                   
