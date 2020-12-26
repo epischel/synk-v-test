@@ -47,7 +47,7 @@ dependencies {
     compile 'org.apache.commons:commons-lang3:3.10'
     compile 'commons-io:commons-io:2.6'
     compile 'commons-net:commons-net:3.6'
-    compile 'com.google.guava:guava:29.0-jre'
+    compile 'com.google.guava:guava:30.1-jre'
     compile 'xalan:xalan:2.7.1'
     compile 'xml-apis:xml-apis:2.0.2'
     compile 'commons-digester:commons-digester:1.5'
