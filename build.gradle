@@ -67,7 +67,7 @@ dependencies {
     compile ('axis:axis:1.4')  
     compile 'javax.servlet:servlet-api:2.5'
     compile 'javax.servlet.jsp:jsp-api:2.1'
-    compile 'org.apache.httpcomponents:httpclient-cache:4.5.12'
+    compile 'org.apache.httpcomponents:httpclient-cache:4.5.13'
     compile 'log4j:log4j:1.2.8'
     compile 'commons-lang:commons-lang:2.1'
     compile ('axis:axis:1.4')  
