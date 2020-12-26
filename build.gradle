@@ -46,7 +46,7 @@ dependencies {
     compile 'commons-beanutils:commons-beanutils:1.7.0' // 1.6
     compile 'org.apache.commons:commons-lang3:3.10'
     compile 'commons-io:commons-io:2.6'
-    compile 'commons-net:commons-net:3.6'
+    compile 'commons-net:commons-net:3.7.2'
     compile 'com.google.guava:guava:29.0-jre'
     compile 'xalan:xalan:2.7.1'
     compile 'xml-apis:xml-apis:2.0.2'
