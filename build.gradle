@@ -14,7 +14,7 @@ ext {
 }
 
 dependencies {
-    compile 'org.slf4j:slf4j-api:1.7.25'
+    compile 'org.slf4j:slf4j-api:1.7.30'
     compile "org.springframework:spring-aop:$springVersion"
     compile "org.springframework:spring-beans:$springVersion"
     compile "org.springframework:spring-context:$springVersion"
