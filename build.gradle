@@ -37,7 +37,7 @@ dependencies {
 	compile	"com.sun.media:jai-codec:$jaiVersion"
 	compile "com.sun.media:jai-core:$jaiVersion"
 	compile 'com.sun.mail:javax.mail:1.6.2' // 1.5.1
-	compile 'org.cups4j:cups4j:0.7.5';
+	compile 'org.cups4j:cups4j:0.7.8';
 	compile 'org.reflections:reflections:0.9.+'
     compile "com.sun.media:jai-codec:$jaiVersion"
     compile "com.sun.media:jai-core:$jaiVersion"
