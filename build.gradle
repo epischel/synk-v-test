@@ -43,7 +43,7 @@ dependencies {
     compile 'org.apache.httpcomponents:httpmime:4.5.13'
     compile 'commons-beanutils:commons-beanutils:1.7.0' // 1.6
     compile 'org.apache.commons:commons-lang3:3.11'
-    compile 'commons-io:commons-io:2.7'
+    compile 'commons-io:commons-io:2.8.0'
     compile 'commons-net:commons-net:3.6'
     compile 'com.google.guava:guava:29.0-jre'
     compile 'xalan:xalan:2.7.1'
@@ -57,7 +57,7 @@ dependencies {
     compile ('org.apache.pdfbox:fontbox:2.0.20')
     compile ('com.fasterxml.jackson.core:jackson-databind:2.11.2')
     compile 'com.ibm.icu:icu4j:68.2'
-    compile 'commons-io:commons-io:2.5'
+    compile 'commons-io:commons-io:2.8.0'
     compile 'commons-httpclient:commons-httpclient:2.0.2'
     compile 'ant:ant:1.6.5'  //     compile ('org.apache.ant:ant:1.7.0@jar')
     compile 'oro:oro:2.0.8'
