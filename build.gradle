@@ -13,6 +13,18 @@ ext {
 	
 }
 
+buildscript {
+
+    dependencies {
+        // classpath 'de.bund.bka.vbs.gradle:wsdl-xsd-tasks:1.0-SNAPSHOT'
+        classpath("org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.7.0.1622")
+        classpath("com.diffplug.spotless:spotless-plugin-gradle:4.3.0")
+	    classpath("com.github.ben-manes:gradle-versions-plugin:0.36.0")
+		classpath("se.patrikerdes:gradle-use-latest-versions-plugin:0.2.15")
+    }
+} 
+
+
 dependencies {
             compile 'org.slf4j:slf4j-api:1.7.25'
             compile "org.springframework:spring-aop:$springVersion"
