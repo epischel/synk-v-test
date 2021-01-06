@@ -55,7 +55,7 @@ dependencies {
     compile 'commons-beanutils:commons-beanutils:1.7.0' // 1.6
     compile 'org.apache.commons:commons-lang3:3.11'
     compile 'commons-io:commons-io:2.7'
-    compile 'commons-net:commons-net:3.6'
+    compile 'commons-net:commons-net:3.7.2'
     compile 'com.google.guava:guava:29.0-jre'
     compile 'xalan:xalan:2.7.1'
     compile 'xml-apis:xml-apis:2.0.2'
@@ -68,17 +68,15 @@ dependencies {
     compile ('org.apache.pdfbox:fontbox:2.0.20')
     compile ('com.fasterxml.jackson.core:jackson-databind:2.11.2')
     compile 'com.ibm.icu:icu4j:68.2'
-    compile 'commons-io:commons-io:2.5'
-    compile 'commons-httpclient:commons-httpclient:2.0.2'
+    compile 'commons-io:commons-io:2.8.0'    
     compile 'ant:ant:1.6.5'  //     compile ('org.apache.ant:ant:1.7.0@jar')
     compile 'oro:oro:2.0.8'
-    compile 'commons-lang:commons-lang:2.1'
+    compile 'commons-lang:commons-lang:2.6'
     compile ('axis:axis:1.4')
     compile 'javax.servlet:servlet-api:2.5'
     compile 'javax.servlet.jsp:jsp-api:2.1'
     compile 'org.apache.httpcomponents:httpclient-cache:4.5.12'
-    compile 'log4j:log4j:1.2.8'
-    compile 'commons-lang:commons-lang:2.1'
+    compile 'log4j:log4j:1.2.8'    
     compile ('struts:struts:1.2.4')
     compile 'commons-fileupload:commons-fileupload:1.4'
     compile 'org.springframework.security:spring-security-web:5.3.1.RELEASE'
@@ -103,3 +101,16 @@ dependencies {
         testCompile 'javax.el:javax.el-api:3.0.0'	
 
 }
+
+configurations {
+    asciidoc
+}
+
+dependencies {
+    asciidoc 'org.asciidoctor:asciidoctorj:2.4.2'
+    asciidoc 'org.asciidoctor:asciidoctor-ant:1.6.2'
+    asciidoc 'org.asciidoctor:asciidoctorj-diagram:2.0.5'
+    asciidoc 'org.asciidoctor:asciidoctorj-pdf:1.5.3'
+    asciidoc 'net.sourceforge.plantuml:plantuml:1.2020.6'
+}
+
