@@ -1,6 +1,6 @@
 ext {
-    springVersion = "5.2.6.RELEASE"
-    springSecurityVersion = "5.3.1.RELEASE"
+    springVersion = "5.3.3"
+    springSecurityVersion = "5.4.2"
     springSecurityKerberosVersion = "1.0.1.RELEASE"
     
     aspectjVersion = "1.9.+"
@@ -9,7 +9,7 @@ ext {
 
     powermockVersion = "1.7.3"
     hamcrestVersion = "2.2"
-    xmlunitVersion = "2.7.+"
+    xmlunitVersion = "2.8.2"
 	
 }
 
