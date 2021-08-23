@@ -86,7 +86,7 @@ dependencies {
             testCompile "org.springframework.security.kerberos:spring-security-kerberos-test:$springSecurityKerberosVersion"
             testCompile 'junit:junit:4.13.2'
             testCompile "org.assertj:assertj-core:3.11.+"
-            testCompile 'org.mockito:mockito-core:2.8.9'
+            testCompile 'org.mockito:mockito-core:3.12.1'
             testCompile "org.hamcrest:hamcrest-core:$hamcrestVersion"
             testCompile "org.hamcrest:hamcrest-library:$hamcrestVersion"
             testCompile "org.xmlunit:xmlunit-core:$xmlunitVersion"
