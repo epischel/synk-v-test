@@ -80,7 +80,7 @@ dependencies {
     compile ('struts:struts:1.2.4')
     compile 'commons-fileupload:commons-fileupload:1.4'
     compile 'org.apache.commons:commons-csv:1.8'
-    compile 'org.springframework.security:spring-security-web:5.4.5'
+    compile 'org.springframework.security:spring-security-web:5.5.2'
     compile 'org.apache.commons:commons-text:1.9'
     compile 'org.springframework.ws:spring-ws-core:3.0.10.RELEASE'
     compile 'org.springframework.ws:spring-xml:3.0.10.RELEASE'
