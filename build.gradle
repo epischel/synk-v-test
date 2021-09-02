@@ -6,8 +6,7 @@ ext {
     aspectjVersion = "1.9.+"
     jaiVersion = "1.1.3"
     apachePoiVersion = "4.1.2"
-
-    powermockVersion = "1.7.3"
+    
     hamcrestVersion = "2.2"
     xmlunitVersion = "2.8.2"
 	
@@ -48,16 +47,17 @@ dependencies {
     compile ('oro:oro:2.0.8')
     compile 'net.sourceforge.htmlcleaner:htmlcleaner:2.24'
     compile 'com.sun.mail:javax.mail:1.6.2' // 1.5.1
-    compile 'org.cups4j:cups4j:0.7.5';
-    compile 'org.reflections:reflections:0.9.+'    
+    compile 'org.cups4j:cups4j:0.7.8';
+    compile 'org.reflections:reflections:0.9.+'
+    compile 'org.apache.commons:commons-text:1.9'
     compile 'org.apache.httpcomponents:httpclient:4.5.13'
     compile 'org.apache.httpcomponents:httpmime:4.5.13'
     compile 'commons-beanutils:commons-beanutils:1.7.0' // 1.6
     compile 'org.apache.commons:commons-lang3:3.12.0'
-    compile 'commons-io:commons-io:2.7'
+    compile 'commons-io:commons-io:2.8'
     compile 'commons-net:commons-net:3.8.0'
     compile 'com.google.guava:guava:30.1-jre'
-    compile 'xalan:xalan:2.7.1'
+    compile 'xalan:xalan:2.7.2'
     compile 'xml-apis:xml-apis:2.0.2'
     compile 'commons-digester:commons-digester:2.1'
     compile 'net.sf.saxon:Saxon-HE:10.3'
@@ -66,11 +66,11 @@ dependencies {
     compile ("org.apache.poi:poi-ooxml:$apachePoiVersion")
     compile ('org.apache.xmlgraphics:fop:2.6')
     compile ('org.apache.pdfbox:fontbox:2.0.22')
-    compile ('com.fasterxml.jackson.core:jackson-databind:2.12.2')
+    compile ('com.fasterxml.jackson.core:jackson-databind:2.12.3')
     compile 'com.ibm.icu:icu4j:69.1'
     compile 'commons-io:commons-io:2.8.0'    
     compile 'ant:ant:1.6.5'  //     compile ('org.apache.ant:ant:1.7.0@jar')
-    compile 'oro:oro:2.0.8'
+    
     compile 'commons-lang:commons-lang:2.6'
     compile ('axis:axis:1.4')
     compile 'javax.servlet:servlet-api:2.5'
@@ -79,8 +79,12 @@ dependencies {
     compile 'log4j:log4j:1.2.8'    
     compile ('struts:struts:1.2.4')
     compile 'commons-fileupload:commons-fileupload:1.4'
+    compile 'org.apache.commons:commons-csv:1.8'
     compile 'org.springframework.security:spring-security-web:5.4.5'
     compile 'org.apache.commons:commons-text:1.9'
+    compile 'org.springframework.ws:spring-ws-core:3.0.10.RELEASE'
+    compile 'org.springframework.ws:spring-xml:3.0.10.RELEASE'
+    compile 'org.apache.ws.xmlschema:xmlschema-core:2.2.5'
     implementation "org.webjars:d3js:6.2.0"
             testCompile "org.springframework:spring-test:$springVersion"
             testCompile "org.springframework.security.kerberos:spring-security-kerberos-test:$springSecurityKerberosVersion"
@@ -102,6 +106,10 @@ dependencies {
                 exclude group: 'org.yaml', module: 'snakeyaml'
             }
 
+    implementation group: 'fr.opensagres.xdocreport', name:'fr.opensagres.xdocreport.document.odt', version:'2.0.2'
+    implementation group: 'fr.opensagres.xdocreport', name:'fr.opensagres.xdocreport.template.freemarker', version:'2.0.2'
+    implementation group: 'fr.opensagres.xdocreport', name:'fr.opensagres.xdocreport.converter.odt.odfdom', version:'2.0.2'
+    implementation 'de.jollyday:jollyday:0.5.10'
 
 }
 
