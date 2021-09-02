@@ -83,7 +83,7 @@ dependencies {
     compile 'org.springframework.security:spring-security-web:5.4.5'
     compile 'org.apache.commons:commons-text:1.9'
     compile 'org.springframework.ws:spring-ws-core:3.0.10.RELEASE'
-    compile 'org.springframework.ws:spring-xml:3.0.10.RELEASE'
+    compile 'org.springframework.ws:spring-xml:3.1.1'
     compile 'org.apache.ws.xmlschema:xmlschema-core:2.2.5'
     implementation "org.webjars:d3js:6.2.0"
             testCompile "org.springframework:spring-test:$springVersion"
