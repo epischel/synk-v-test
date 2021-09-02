@@ -85,20 +85,23 @@ dependencies {
             testCompile "org.springframework:spring-test:$springVersion"
             testCompile "org.springframework.security.kerberos:spring-security-kerberos-test:$springSecurityKerberosVersion"
             testCompile 'junit:junit:4.13.2'
-            testCompile "org.assertj:assertj-core:3.11.+"
+            testCompile "org.assertj:assertj-core:3.19.0"
             testCompile 'org.mockito:mockito-core:2.8.9'
             testCompile "org.hamcrest:hamcrest-core:$hamcrestVersion"
             testCompile "org.hamcrest:hamcrest-library:$hamcrestVersion"
             testCompile "org.xmlunit:xmlunit-core:$xmlunitVersion"
             testCompile "org.xmlunit:xmlunit-matchers:$xmlunitVersion"
             testCompile "org.xmlunit:xmlunit-legacy:$xmlunitVersion"
-            testCompile("com.github.tomakehurst:wiremock-jre8:2.26.+")
-        testCompile 'org.easymock:easymock:2.4'
-        testCompile("com.github.tomakehurst:wiremock-jre8:2.26.+")
-        testCompile 'com.icegreen:greenmail:1.6.2';
-        testCompile 'junit:junit:4.13.1'
+            testCompile("com.github.tomakehurst:wiremock-jre8:2.27.2")                
+        testCompile 'com.icegreen:greenmail:1.6.2';        
         testCompile 'org.mockito:mockito-all:1.10.19'
-        testCompile 'javax.el:javax.el-api:3.0.0'	
+        testCompile 'javax.el:javax.el-api:3.0.0'
+	testCompile 'org.apache.commons:commons-csv:1.8'
+	testCompile 'org.yaml:snakeyaml:1.27'
+	testCompile('com.github.javafaker:javafaker:1.0.2') {
+                exclude group: 'org.yaml', module: 'snakeyaml'
+            }
+
 
 }
 
