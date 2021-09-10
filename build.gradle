@@ -100,7 +100,7 @@ dependencies {
         testCompile 'org.mockito:mockito-all:1.10.19'
         testCompile 'javax.el:javax.el-api:3.0.0'
 	testCompile 'org.apache.commons:commons-csv:1.8'
-	testCompile 'org.yaml:snakeyaml:1.27'
+	testCompile 'org.yaml:snakeyaml:1.29'
 	testCompile('com.github.javafaker:javafaker:1.0.2') {
                 exclude group: 'org.yaml', module: 'snakeyaml'
             }
