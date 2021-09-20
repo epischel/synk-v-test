@@ -60,7 +60,7 @@ dependencies {
     compile 'xalan:xalan:2.7.2'
     compile 'xml-apis:xml-apis:2.0.2'
     compile 'commons-digester:commons-digester:2.1'
-    compile 'net.sf.saxon:Saxon-HE:10.5'
+    compile 'net.sf.saxon:Saxon-HE:10.6'
     compile 'log4j:log4j:1.2.17'
     compile "org.apache.poi:poi:$apachePoiVersion"
     compile ("org.apache.poi:poi-ooxml:$apachePoiVersion")
