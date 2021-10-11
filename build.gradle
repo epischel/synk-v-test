@@ -48,7 +48,7 @@ dependencies {
     compile 'net.sourceforge.htmlcleaner:htmlcleaner:2.24'
     compile 'com.sun.mail:javax.mail:1.6.2' // 1.5.1
     compile 'org.cups4j:cups4j:0.7.8';
-    compile 'org.reflections:reflections:0.9.+'
+    compile 'org.reflections:reflections:0.10.+'
     compile 'org.apache.commons:commons-text:1.9'
     compile 'org.apache.httpcomponents:httpclient:4.5.13'
     compile 'org.apache.httpcomponents:httpmime:4.5.13'
