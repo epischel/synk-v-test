@@ -65,7 +65,7 @@ dependencies {
     compile "org.apache.poi:poi:$apachePoiVersion"
     compile ("org.apache.poi:poi-ooxml:$apachePoiVersion")
     compile ('org.apache.xmlgraphics:fop:2.6')
-    compile ('org.apache.pdfbox:fontbox:2.0.24')
+    compile ('org.apache.pdfbox:fontbox:2.0.25')
     compile ('com.fasterxml.jackson.core:jackson-databind:2.13.0')
     compile 'com.ibm.icu:icu4j:69.1'
     compile 'commons-io:commons-io:2.11.0'        
