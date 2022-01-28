@@ -111,6 +111,11 @@ dependencies {
     implementation group: 'fr.opensagres.xdocreport', name:'fr.opensagres.xdocreport.template.freemarker', version:'2.0.2'
     implementation group: 'fr.opensagres.xdocreport', name:'fr.opensagres.xdocreport.converter.odt.odfdom', version:'2.0.2'
     implementation 'de.jollyday:jollyday:0.5.10'
+    
+      runtimeOnly "com.sun.xml.bind:jaxb-core:2.3.0.1"
+  runtimeOnly "com.sun.xml.bind:jaxb-impl:2.3.5"
+  runtimeOnly "org.apache.tomcat.embed:tomcat-embed-jasper"
+
 
 }
 
