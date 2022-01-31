@@ -107,7 +107,7 @@ dependencies {
                 exclude group: 'org.yaml', module: 'snakeyaml'
             }
 
-    implementation group: 'fr.opensagres.xdocreport', name:'fr.opensagres.xdocreport.document.odt', version:'2.0.2'
+    implementation group: 'fr.opensagres.xdocreport', name:'fr.opensagres.xdocreport.document.odt', version:'2.0.3'
     implementation group: 'fr.opensagres.xdocreport', name:'fr.opensagres.xdocreport.template.freemarker', version:'2.0.2'
     implementation group: 'fr.opensagres.xdocreport', name:'fr.opensagres.xdocreport.converter.odt.odfdom', version:'2.0.2'
     implementation 'de.jollyday:jollyday:0.5.10'
