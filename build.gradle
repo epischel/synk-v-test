@@ -1,25 +1,70 @@
 ext {
+    // Java(x)-API versions
+    javaxServletApiVerion = "4.0.1"
+    javaxServletJspApiVersion = "2.1"
+    javaxServletJspJstlApiVersion = "1.2.6"
+    javaxValidationApiVersion = "2.0.1.Final"
+
+    // database driver version
+    oracleJdbcDriverVersion = "12.2.0.1.0"
+
+    // logger versions
+    slf4jVersion = "1.7.35"
+    log4jVersion = "2.17.1"
+
+    // Spring- und Spring-Deps versions
+    springBootVersion = "2.6.3"
     springVersion = "5.3.15"
     springSecurityVersion = "5.6.1"
+    springVersion = "5.3.15"
+    springSecurityVersion = "5.6.0"
     springSecurityKerberosVersion = "1.0.1.RELEASE"
-    
     aspectjVersion = "1.9.7"
-    jaiVersion = "1.1.3"
+
     apachePoiVersion = "4.1.2"
-    
+    httpcomponentsVersion = "4.5.13"
+    commonsLang3Version = "3.12.0"
+    commonsIoVersion = "2.11.0"
+    jsr305Version = "3.0.2"
+    guavaVersion = "31.0.1-jre"
+    jacksonVersion = "2.13.1"
+    commonsCollections4Version = "4.4"
+    //commons-beanutils: ab 1.9.3 fliegt eine exception, wenn man versuch null in einen primitive zu kopieren -> vorerst bleiben wir bei 1.7
+    commonsBeanutilsVersion = "1.7.0"
+    commonsTextVersion = "1.9"
+    icu4jVersion = "69.1"
+    apacheFopVersion = "2.6"
+    externJaxbTestVersion = "1.0.0"
+    xalanVersion = "2.7.2"
+    iTextVersion = "5.1.0" // mit 5.5.12 fehlen die barcodes, deshalb weiter mit 5.1.0
+    jamonVersion = "2.7"
+    // Caffeine-Versionen mit Major-Version 3 erfordern Java 11.
+    caffeineCacheVersion = "2.8.4"
+    axisVersion = "1.4"
+    reflectionsVersion = "0.10.2"
+
+    // test deps versions
     hamcrestVersion = "2.2"
     xmlunitVersion = "2.8.2"
+    junitVersion = "4.13.2"
+    assertjVersion = "3.19.0"
+    mockitoVersion = "2.8.9"
+    jaxwsToolsVersion = "2.3.2"
+    commonsCsvVersion = "1.9.0"
+    snakeyamlVersion = "1.29"
+    javafakerVersion = "1.0.2"
+    wiremockVersion = "2.31.0"
+
 	
 }
 
 buildscript {
 
     dependencies {
-        // classpath 'de.bund.bka.vbs.gradle:wsdl-xsd-tasks:1.0-SNAPSHOT'
         classpath("org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.3")
         classpath("com.diffplug.spotless:spotless-plugin-gradle:5.17.1")
-	    classpath("com.github.ben-manes:gradle-versions-plugin:0.36.0")
-		classpath("se.patrikerdes:gradle-use-latest-versions-plugin:0.2.15")
+        classpath("com.github.ben-manes:gradle-versions-plugin:0.36.0")
+	classpath("se.patrikerdes:gradle-use-latest-versions-plugin:0.2.15")
     }
 } 
 
