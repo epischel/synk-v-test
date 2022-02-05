@@ -48,7 +48,7 @@ ext {
     xmlunitVersion = "2.8.2"
     junitVersion = "4.13.2"
     assertjVersion = "3.19.0"
-    mockitoVersion = "2.8.9"
+    mockitoVersion = "4.3.1"
     jaxwsToolsVersion = "2.3.2"
     commonsCsvVersion = "1.9.0"
     snakeyamlVersion = "1.29"
