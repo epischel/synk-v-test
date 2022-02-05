@@ -70,87 +70,108 @@ buildscript {
 
 
 dependencies {
-            compile 'org.slf4j:slf4j-api:1.7.35'
-	    implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.17.1'
+            // Java(x)-API deps
+            compileOnly "javax.servlet:javax.servlet-api:${javaxServletApiVerion}"
+            compileOnly "javax.servlet.jsp:jsp-api:${javaxServletJspApiVersion}"
+            implementation "org.glassfish.web:jakarta.servlet.jsp.jstl:${javaxServletJspJstlApiVersion}"
+            testImplementation "javax.servlet:javax.servlet-api:${javaxServletApiVerion}"
+            testImplementation "javax.servlet.jsp:jsp-api:${javaxServletJspApiVersion}"
+            implementation "javax.validation:validation-api:${javaxValidationApiVersion}"
+
+            // database driver
+            implementation "oracle:ojdbc8:${oracleJdbcDriverVersion}"
+
+            // logger dependencies
+            implementation "org.slf4j:slf4j-api:${slf4jVersion}"
+
+            // Spring-Dependencies
+            implementation "org.springframework:spring-aop:${springVersion}"
+            implementation "org.springframework:spring-beans:${springVersion}"
+            implementation "org.springframework:spring-context-support:${springVersion}"
+            implementation "org.springframework:spring-core:${springVersion}"
+            implementation "org.springframework:spring-jcl:${springVersion}"
+            implementation "org.springframework:spring-jdbc:${springVersion}"
+            implementation "org.springframework:spring-tx:${springVersion}"
+            implementation "org.springframework:spring-expression:${springVersion}"
+            implementation "org.springframework:spring-webmvc:${springVersion}"
+            implementation "org.springframework.security:spring-security-core:${springSecurityVersion}"
+            implementation "org.springframework.security:spring-security-config:${springSecurityVersion}"
+            implementation "org.springframework.security:spring-security-ldap:$springSecurityVersion"
+            implementation "org.springframework.security.kerberos:spring-security-kerberos-core:${springSecurityKerberosVersion}"
+            implementation "org.springframework.security.kerberos:spring-security-kerberos-client:${springSecurityKerberosVersion}"
+            implementation "org.springframework.security.kerberos:spring-security-kerberos-web:${springSecurityKerberosVersion}"
+            implementation "org.aspectj:aspectjrt:${aspectjVersion}"
+            implementation "org.aspectj:aspectjtools:${aspectjVersion}"
+
+            // allgemeine 3rd-Party-Libraries
+            implementation "com.google.code.findbugs:jsr305:${jsr305Version}"
+            implementation "org.apache.commons:commons-lang3:${commonsLang3Version}"
+            implementation "org.apache.commons:commons-collections4:${commonsCollections4Version}"
+            implementation "commons-io:commons-io:${commonsIoVersion}"
+            implementation "com.google.code.maven-play-plugin.com.jamonapi:jamon:${jamonVersion}"
+
+            // allgemeine Test Bibliotheken
+            testImplementation "org.springframework:spring-test:${springVersion}"
+            testImplementation "org.springframework.security.kerberos:spring-security-kerberos-test:${springSecurityKerberosVersion}"
+            testImplementation "junit:junit:${junitVersion}"
+            testImplementation "org.assertj:assertj-core:${assertjVersion}"
+            testImplementation "org.mockito:mockito-core:${mockitoVersion}"
+            testImplementation "org.hamcrest:hamcrest-core:${hamcrestVersion}"
+            testImplementation "org.hamcrest:hamcrest-library:${hamcrestVersion}"
+            testImplementation "org.xmlunit:xmlunit-core:${xmlunitVersion}"
+            testImplementation "org.xmlunit:xmlunit-matchers:${xmlunitVersion}"
+            testImplementation "org.xmlunit:xmlunit-legacy:${xmlunitVersion}"
+            testRuntimeOnly "com.sun.xml.ws:jaxws-tools:${jaxwsToolsVersion}"
+            testImplementation "org.apache.commons:commons-csv:${commonsCsvVersion}"
+            testImplementation "org.yaml:snakeyaml:${snakeyamlVersion}"
+            testImplementation("com.github.javafaker:javafaker:${javafakerVersion}") {
+                exclude group: 'org.yaml', module: 'snakeyaml'
+            }
+            testImplementation("com.github.tomakehurst:wiremock-jre8:${wiremockVersion}")
+
+ 	    implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.17.1'
 	    runtime 'org.slf4j:log4j-over-slf4j:1.7.35'
-            compile "org.springframework:spring-aop:$springVersion"
-            compile "org.springframework:spring-beans:$springVersion"
-            compile "org.springframework:spring-context:$springVersion"
-            compile "org.springframework:spring-core:$springVersion"
-            compile "org.springframework:spring-jcl:$springVersion"
-            compile "org.springframework:spring-jdbc:$springVersion"
-            compile "org.springframework:spring-tx:$springVersion"
-            compile "org.springframework:spring-expression:$springVersion"
-            compile "org.springframework:spring-webmvc:$springVersion"
-            compile "org.springframework.security:spring-security-core:$springSecurityVersion"
-            compile "org.springframework.security:spring-security-config:$springSecurityVersion"
-            compile "org.springframework.security:spring-security-ldap:$springSecurityVersion"
-            compile "org.springframework.security.kerberos:spring-security-kerberos-core:$springSecurityKerberosVersion"
-            compile "org.springframework.security.kerberos:spring-security-kerberos-client:$springSecurityKerberosVersion"
-            compile "org.springframework.security.kerberos:spring-security-kerberos-web:$springSecurityKerberosVersion"
-            compile "org.aspectj:aspectjrt:$aspectjVersion"
-            compile "org.aspectj:aspectjtools:$aspectjVersion"
+ 
     compile 'commons-validator:commons-validator:1.1.3'
     compile ('oro:oro:2.0.8')
     compile 'net.sourceforge.htmlcleaner:htmlcleaner:2.26'
     compile 'com.sun.mail:javax.mail:1.6.2' // 1.5.1
     compile 'org.cups4j:cups4j:0.7.8';
-    compile 'org.reflections:reflections:0.9.+'
-    compile 'org.apache.commons:commons-text:1.9'
-    compile 'org.apache.httpcomponents:httpclient:4.5.13'
-    compile 'org.apache.httpcomponents:httpmime:4.5.13'
-    compile 'commons-beanutils:commons-beanutils:1.7.0' // 1.6
-    compile 'org.apache.commons:commons-lang3:3.12.0'
-    compile 'commons-io:commons-io:2.11.0'
+    compile 'org.reflections:reflections:${reflectionsVersion}'
+    compile 'org.apache.commons:commons-text:${commonsTextVersion}'
+    implementation "org.apache.httpcomponents:httpclient:${httpcomponentsVersion}"
+    implementation "org.apache.httpcomponents:httpmime:${httpcomponentsVersion}"
+    compile 'commons-beanutils:commons-beanutils:${commonsBeanutilsVersion}' // 1.6
     compile 'commons-net:commons-net:3.8.0'
-    compile 'com.google.guava:guava:31.0.1-jre'
-    compile 'xalan:xalan:2.7.2'
+    compile 'com.google.guava:guava:${guavaVersion}'
+    compile 'xalan:xalan:${xalanVersion}'
     compile 'xml-apis:xml-apis:2.0.2'
     compile 'commons-digester:commons-digester:2.1'
     compile 'net.sf.saxon:Saxon-HE:10.5'
     compile 'log4j:log4j:1.2.17'
     compile "org.apache.poi:poi:$apachePoiVersion"
     compile ("org.apache.poi:poi-ooxml:$apachePoiVersion")
-    compile ('org.apache.xmlgraphics:fop:2.6')
+    compile ('org.apache.xmlgraphics:fop:${apacheFopVersion}')
     compile ('org.apache.pdfbox:fontbox:2.0.25')
-    compile ('com.fasterxml.jackson.core:jackson-databind:2.13.0')
-    compile 'com.ibm.icu:icu4j:69.1'
-    compile 'commons-io:commons-io:2.11.0'        
+    compile ('com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}')
+    compile 'com.ibm.icu:icu4j:${icu4jVersion}'
+    compile 'commons-io:commons-io:${commonsIoVersion}'
+    implementation "com.github.ben-manes.caffeine:caffeine:${caffeineCacheVersion}"
     
     compile 'commons-lang:commons-lang:2.6'
     compile ('axis:axis:1.4')
-    compile 'javax.servlet:servlet-api:2.5'
-    compile 'javax.servlet.jsp:jsp-api:2.1'
     compile 'org.apache.httpcomponents:httpclient-cache:4.5.13'
     compile 'log4j:log4j:1.2.8'    
     compile ('struts:struts:1.2.4')
     compile 'commons-fileupload:commons-fileupload:1.4'
     compile 'org.apache.commons:commons-csv:1.9.0'
-    compile 'org.springframework.security:spring-security-web:5.6.1'
-    compile 'org.apache.commons:commons-text:1.9'
+    compile 'org.apache.commons:commons-text:${commonsTextVersion}'
     compile 'org.springframework.ws:spring-ws-core:3.0.10.RELEASE'
     compile 'org.springframework.ws:spring-xml:3.0.10.RELEASE'
     compile 'org.apache.ws.xmlschema:xmlschema-core:2.3.0'
     implementation "org.webjars:d3js:6.2.0"
-            testCompile "org.springframework:spring-test:$springVersion"
-            testCompile "org.springframework.security.kerberos:spring-security-kerberos-test:$springSecurityKerberosVersion"
-            testCompile 'junit:junit:4.13.2'
-            testCompile "org.assertj:assertj-core:3.19.0"
-            testCompile 'org.mockito:mockito-core:2.8.9'
-            testCompile "org.hamcrest:hamcrest-core:$hamcrestVersion"
-            testCompile "org.hamcrest:hamcrest-library:$hamcrestVersion"
-            testCompile "org.xmlunit:xmlunit-core:$xmlunitVersion"
-            testCompile "org.xmlunit:xmlunit-matchers:$xmlunitVersion"
-            testCompile "org.xmlunit:xmlunit-legacy:$xmlunitVersion"
-            testCompile("com.github.tomakehurst:wiremock-jre8:2.31.0")                
-        testCompile 'com.icegreen:greenmail:1.6.5';        
-        testCompile 'org.mockito:mockito-all:1.10.19'
-        testCompile 'javax.el:javax.el-api:3.0.0'
-	testCompile 'org.apache.commons:commons-csv:1.8'
-	testCompile 'org.yaml:snakeyaml:1.29'
-	testCompile('com.github.javafaker:javafaker:1.0.2') {
-                exclude group: 'org.yaml', module: 'snakeyaml'
-            }
+    testCompile 'com.icegreen:greenmail:1.6.5';        
+    testCompile 'javax.el:javax.el-api:3.0.0'
 
     implementation group: 'fr.opensagres.xdocreport', name:'fr.opensagres.xdocreport.document.odt', version:'2.0.2'
     implementation group: 'fr.opensagres.xdocreport', name:'fr.opensagres.xdocreport.template.freemarker', version:'2.0.2'
