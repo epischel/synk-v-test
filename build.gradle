@@ -1,5 +1,5 @@
 ext {
-    springVersion = "5.3.13"
+    springVersion = "5.3.15"
     springSecurityVersion = "5.6.0"
     springSecurityKerberosVersion = "1.0.1.RELEASE"
     
