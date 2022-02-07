@@ -49,7 +49,7 @@ ext {
     junitVersion = "4.13.2"
     assertjVersion = "3.19.0"
     mockitoVersion = "2.8.9"
-    jaxwsToolsVersion = "2.3.2"
+    jaxwsToolsVersion = "3.0.2"
     commonsCsvVersion = "1.9.0"
     snakeyamlVersion = "1.29"
     javafakerVersion = "1.0.2"
