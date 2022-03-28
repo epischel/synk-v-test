@@ -19,7 +19,7 @@ ext {
     springVersion = "5.3.15"
     springSecurityVersion = "5.6.0"
     springSecurityKerberosVersion = "1.0.1.RELEASE"
-    aspectjVersion = "1.9.8"
+    aspectjVersion = "1.9.9"
 
     apachePoiVersion = "4.1.2"
     httpcomponentsVersion = "4.5.13"
