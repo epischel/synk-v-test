@@ -136,7 +136,7 @@ dependencies {
     compile ('oro:oro:2.0.8')
     compile 'net.sourceforge.htmlcleaner:htmlcleaner:2.26'
     compile 'com.sun.mail:javax.mail:1.6.2' // 1.5.1
-    compile 'org.cups4j:cups4j:0.7.8';
+    compile 'org.cups4j:cups4j:0.7.9';
     compile 'org.reflections:reflections:${reflectionsVersion}'
     compile 'org.apache.commons:commons-text:${commonsTextVersion}'
     implementation "org.apache.httpcomponents:httpclient:${httpcomponentsVersion}"
