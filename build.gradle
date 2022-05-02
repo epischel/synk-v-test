@@ -53,7 +53,7 @@ ext {
     commonsCsvVersion = "1.9.0"
     snakeyamlVersion = "1.29"
     javafakerVersion = "1.0.2"
-    wiremockVersion = "2.31.0"
+    wiremockVersion = "2.33.2"
 
 	
 }
