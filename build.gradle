@@ -32,7 +32,7 @@ ext {
     //commons-beanutils: ab 1.9.3 fliegt eine exception, wenn man versuch null in einen primitive zu kopieren -> vorerst bleiben wir bei 1.7
     commonsBeanutilsVersion = "1.7.0"
     commonsTextVersion = "1.9"
-    icu4jVersion = "70.1"
+    icu4jVersion = "71.1"
     apacheFopVersion = "2.6"
     externJaxbTestVersion = "1.0.0"
     xalanVersion = "2.7.2"
