@@ -47,7 +47,7 @@ ext {
     hamcrestVersion = "2.2"
     xmlunitVersion = "2.9.0"
     junitVersion = "4.13.2"
-    assertjVersion = "3.22.0"
+    assertjVersion = "3.23.1"
     mockitoVersion = "2.8.9"
     jaxwsToolsVersion = "2.3.2"
     commonsCsvVersion = "1.9.0"
