@@ -193,7 +193,7 @@ configurations {
 }
 
 dependencies {
-    asciidoc 'org.asciidoctor:asciidoctorj:2.4.3'
+    asciidoc 'org.asciidoctor:asciidoctorj:2.5.5'
     asciidoc 'org.asciidoctor:asciidoctor-ant:1.6.2'
     asciidoc 'org.asciidoctor:asciidoctorj-diagram:2.0.5'
     asciidoc 'org.asciidoctor:asciidoctorj-pdf:1.5.4'
