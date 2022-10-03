@@ -31,7 +31,7 @@ ext {
     commonsCollections4Version = "4.4"
     //commons-beanutils: ab 1.9.3 fliegt eine exception, wenn man versuch null in einen primitive zu kopieren -> vorerst bleiben wir bei 1.7
     commonsBeanutilsVersion = "1.7.0"
-    commonsTextVersion = "1.9"
+    commonsTextVersion = "1.10.0"
     icu4jVersion = "71.1"
     apacheFopVersion = "2.7"
     externJaxbTestVersion = "1.0.0"
