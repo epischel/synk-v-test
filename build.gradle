@@ -33,7 +33,7 @@ ext {
     commonsBeanutilsVersion = "1.7.0"
     commonsTextVersion = "1.9"
     icu4jVersion = "71.1"
-    apacheFopVersion = "2.7"
+    apacheFopVersion = "2.8"
     externJaxbTestVersion = "1.0.0"
     xalanVersion = "2.7.2"
     iTextVersion = "5.1.0" // mit 5.5.12 fehlen die barcodes, deshalb weiter mit 5.1.0
