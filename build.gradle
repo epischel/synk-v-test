@@ -2,7 +2,7 @@ ext {
     // Java(x)-API versions
     javaxServletApiVerion = "4.0.1"
     javaxServletJspApiVersion = "2.2"
-    javaxServletJspJstlApiVersion = "1.2.6"
+    javaxServletJspJstlApiVersion = "3.0.1"
     javaxValidationApiVersion = "2.0.1.Final"
 
     // database driver version
