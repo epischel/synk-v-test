@@ -27,7 +27,7 @@ ext {
     commonsIoVersion = "2.11.0"
     jsr305Version = "3.0.2"
     guavaVersion = "31.1-jre"
-    jacksonVersion = "2.13.4"
+    jacksonVersion = "2.14.1"
     commonsCollections4Version = "4.4"
     //commons-beanutils: ab 1.9.3 fliegt eine exception, wenn man versuch null in einen primitive zu kopieren -> vorerst bleiben wir bei 1.7
     commonsBeanutilsVersion = "1.7.0"
