@@ -159,7 +159,7 @@ dependencies {
     
     compile 'commons-lang:commons-lang:2.6'
     compile ('axis:axis:1.4')
-    compile 'org.apache.httpcomponents:httpclient-cache:4.5.13' 
+    compile 'org.apache.httpcomponents:httpclient-cache:4.5.14' 
     compile ('struts:struts:1.2.4')
     compile 'commons-fileupload:commons-fileupload:1.4'
     compile 'org.apache.commons:commons-csv:1.9.0'
