@@ -142,7 +142,7 @@ dependencies {
     implementation "org.apache.httpcomponents:httpclient:${httpcomponentsVersion}"
     implementation "org.apache.httpcomponents:httpmime:${httpcomponentsVersion}"
     compile 'commons-beanutils:commons-beanutils:${commonsBeanutilsVersion}' // 1.6
-    compile 'commons-net:commons-net:3.8.0'
+    compile 'commons-net:commons-net:3.9.0'
     compile 'com.google.guava:guava:${guavaVersion}'
     compile 'xalan:xalan:${xalanVersion}'
     compile 'xml-apis:xml-apis:2.0.2'
