@@ -45,7 +45,7 @@ ext {
 
     // test deps versions
     hamcrestVersion = "2.2"
-    xmlunitVersion = "2.9.0"
+    xmlunitVersion = "2.9.1"
     junitVersion = "4.13.2"
     assertjVersion = "3.23.1"
     mockitoVersion = "2.8.9"
