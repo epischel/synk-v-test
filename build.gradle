@@ -50,7 +50,7 @@ ext {
     assertjVersion = "3.23.1"
     mockitoVersion = "2.8.9"
     jaxwsToolsVersion = "2.3.2"
-    commonsCsvVersion = "1.9.0"
+    commonsCsvVersion = "1.10.0"
     snakeyamlVersion = "1.31"
     javafakerVersion = "1.0.2"
     wiremockVersion = "2.34.0"
@@ -162,7 +162,7 @@ dependencies {
     compile 'org.apache.httpcomponents:httpclient-cache:4.5.13' 
     compile ('struts:struts:1.2.4')
     compile 'commons-fileupload:commons-fileupload:1.4'
-    compile 'org.apache.commons:commons-csv:1.9.0'
+    compile 'org.apache.commons:commons-csv:1.10.0'
     compile 'org.apache.commons:commons-text:${commonsTextVersion}'
     compile 'org.springframework.ws:spring-ws-core:3.1.3'
     compile 'org.springframework.ws:spring-xml:3.1.3'
