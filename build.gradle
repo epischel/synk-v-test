@@ -14,7 +14,7 @@ ext {
 
     // Spring- und Spring-Deps versions
     springBootVersion = "2.6.3"
-    springVersion = "5.3.19"
+    springVersion = "6.0.6"
     springSecurityVersion = "5.7.3"
     springVersion = "5.3.15"
     springSecurityVersion = "5.6.0"
