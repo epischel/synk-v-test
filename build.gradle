@@ -190,6 +190,7 @@ dependencies {
     }
     implementation ('org.apache.pdfbox:fontbox:${apacheFontboxVersion}')
     implementation ('com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}')
+    implementation ('com.fasterxml.jackson.core:jackson-datatype-jsr310:2.16.1')
     implementation 'com.ibm.icu:icu4j:${icu4jVersion}'
     implementation 'commons-io:commons-io:${commonsIoVersion}'
     implementation "com.github.ben-manes.caffeine:caffeine:${caffeineCacheVersion}"
@@ -215,6 +216,7 @@ dependencies {
     implementation 'de.jollyday:jollyday:${jollydayVersion}'
     implementation 'org.bouncycastle:bcprov-jdk15on:${bouncycastleVersion}'
     implementation 'com.twelvemonkeys.imageio.imageio-tiff:${imageioTiffVersion}'
+    implementation 'io.jsonwebtoken:jjwt:${jsonwebtokenVersion}'
 
     
       runtimeOnly "com.sun.xml.bind:jaxb-core:${jaxbCoreVersion}"
