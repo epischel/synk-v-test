@@ -34,7 +34,7 @@ ext {
 
     jsr305Version = "3.0.2"
 
-    apacheFontboxVersion = "2.0.30"
+    apacheFontboxVersion = "3.0.1"
     apacheFopVersion = "2.9"
     apacheOroVersion = "2.0.8"
     apachePoiVersion = "4.1.2"
