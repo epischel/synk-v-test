@@ -25,7 +25,7 @@ ext {
     tomcatEmbedVersion = "9.0.69" // neu
 
     jaxbCoreVersion = "2.3.0.1" // neu
-    jaxbImplVersion = "2.3.9"
+    jaxbImplVersion = "4.0.4"
     saxonVersion = "11.3"
     xalanVersion = "2.7.3"
     xmlApisVersion = "2.0.2"
