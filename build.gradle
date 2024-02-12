@@ -53,7 +53,7 @@ ext {
     strutsVersion = "1.2.4"
 
     axisVersion = "1.4"
-    bouncycastleVersion = "1.46"
+    bouncycastleVersion = "1.70"
     caffeineCacheVersion = "2.8.4"    // Caffeine-Versionen mit Major-Version 3 erfordern Java 11.
     cups4jVersion = "0.7.9"
     externJaxbTestVersion = "1.0.0"
