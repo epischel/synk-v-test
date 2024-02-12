@@ -57,7 +57,7 @@ ext {
     caffeineCacheVersion = "2.8.4"    // Caffeine-Versionen mit Major-Version 3 erfordern Java 11.
     cups4jVersion = "0.7.9"
     externJaxbTestVersion = "1.0.0"
-    guavaVersion = "32.0.1-jre"
+    guavaVersion = "33.0.0-jre"
     htmlcleanerVersion = "2.29"
     icu4jVersion = "74.2"
     imageioTiffVersion = "3.10.1"
