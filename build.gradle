@@ -26,7 +26,7 @@ ext {
 
     jaxbCoreVersion = "2.3.0.1" // neu
     jaxbImplVersion = "2.3.9"
-    saxonVersion = "11.3"
+    saxonVersion = "12.4"
     xalanVersion = "2.7.3"
     xmlApisVersion = "2.0.2"
     xmlschemaCodeVersion = "2.3.1"
