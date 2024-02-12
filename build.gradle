@@ -207,7 +207,7 @@ dependencies {
     implementation 'org.apache.ws.xmlschema:xmlschema-core:${xmlschemaCodeVersion}'
     implementation 'wsdl4j:wsdl4j:${wsdl4jVersion}'
     implementation "org.webjars:d3js:6.7.0"
-    testImplementation 'com.icegreen:greenmail:1.6.10';        
+    testImplementation 'com.icegreen:greenmail:2.0.1';        
     testImplementation 'javax.el:javax.el-api:${javaxElApiVersion}'
 
     implementation group: 'fr.opensagres.xdocreport', name:'fr.opensagres.xdocreport.document.odt', version:'${xdocreportVersion}'
