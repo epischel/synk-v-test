@@ -79,7 +79,7 @@ ext {
     mockitoVersion = "3.4.6"
     jaxwsToolsVersion = "2.3.7"
     javafakerVersion = "1.0.2"
-    wiremockVersion = "2.35.1"
+    wiremockVersion = "3.0.1"
 
 	
 }
