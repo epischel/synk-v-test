@@ -48,7 +48,7 @@ ext {
     commonsLang3Version = "3.14.0"
     commonsNetVersion = "3.10.0"
     commonsTextVersion = "1.9"
-    commonsValidatorVersion = "1.1.3"
+    commonsValidatorVersion = "1.8.0"
     httpcomponentsVersion = "4.5.13"
     strutsVersion = "1.2.4"
 
