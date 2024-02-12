@@ -18,7 +18,7 @@ ext {
     springBootVersion = "2.7.18"
     springVersion = "5.3.31"
     springSecurityVersion = "5.8.9"
-    springSecurityKerberosVersion = "1.0.1.RELEASE"
+    springSecurityKerberosVersion = "2.0.0"
     springWsVersion="3.1.8" // neu
     
     aspectjVersion = "1.9.7" // höher geht nicht wg. java8
