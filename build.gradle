@@ -37,7 +37,7 @@ ext {
     apacheFontboxVersion = "2.0.30"
     apacheFopVersion = "2.9"
     apacheOroVersion = "2.0.8"
-    apachePoiVersion = "4.1.2"
+    apachePoiVersion = "5.2.5"
     //commons-beanutils: ab 1.9.3 fliegt eine exception, wenn man versuch null in einen primitive zu kopieren -> vorerst bleiben wir bei 1.7
     commonsBeanutilsVersion = "1.7.0"
     commonsCollections4Version = "4.4"
