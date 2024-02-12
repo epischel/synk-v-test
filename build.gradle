@@ -24,7 +24,7 @@ ext {
     aspectjVersion = "1.9.7" // höher geht nicht wg. java8
     tomcatEmbedVersion = "9.0.69" // neu
 
-    jaxbCoreVersion = "2.3.0.1" // neu
+    jaxbCoreVersion = "4.0.4" // neu
     jaxbImplVersion = "2.3.9"
     saxonVersion = "11.3"
     xalanVersion = "2.7.3"
