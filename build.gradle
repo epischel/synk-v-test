@@ -62,7 +62,7 @@ ext {
     icu4jVersion = "74.2"
     imageioTiffVersion = "3.10.1"
     iTextVersion = "5.1.0" // mit 5.5.12 fehlen die barcodes, deshalb weiter mit 5.1.0
-    jacksonVersion = "2.13.4.2"
+    jacksonVersion = "2.16.2"
     jamonVersion = "2.7"
     jollydayVersion = "0.5.10"
     reflectionsVersion = "0.10.2"
