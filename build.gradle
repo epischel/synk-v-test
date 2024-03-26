@@ -12,7 +12,7 @@ ext {
 
     // logger versions
     slf4jVersion = "2.0.12"
-    log4jVersion = "2.23.0"
+    log4jVersion = "2.23.1"
 
     // Spring- und Spring-Deps versions
     springBootVersion = "2.7.18"
