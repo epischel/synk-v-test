@@ -21,7 +21,7 @@ ext {
     springSecurityKerberosVersion = "1.0.1.RELEASE"
     springWsVersion="3.1.8" // neu
     
-    aspectjVersion = "1.9.7" // höher geht nicht wg. java8
+    aspectjVersion = "1.9.22" // höher geht nicht wg. java8
     tomcatEmbedVersion = "9.0.69" // neu
 
     jaxbCoreVersion = "2.3.0.1" // neu
