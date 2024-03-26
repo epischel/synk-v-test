@@ -249,7 +249,7 @@ configurations {
 dependencies {
     asciidoc 'org.asciidoctor:asciidoctorj:2.5.6'
     asciidoc 'org.asciidoctor:asciidoctor-ant:1.6.2'
-    asciidoc 'org.asciidoctor:asciidoctorj-diagram:2.0.5'
+    asciidoc 'org.asciidoctor:asciidoctorj-diagram:2.3.0'
     asciidoc 'org.asciidoctor:asciidoctorj-pdf:1.5.4'
     asciidoc 'net.sourceforge.plantuml:plantuml:1.2020.6'
 }
