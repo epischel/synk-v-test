@@ -44,7 +44,7 @@ ext {
     commonsCsvVersion = "1.10.0"
     commonsDigesterVersion = "2.1"
     commonsFileuploadVersion = "1.4"
-    commonsIoVersion = "2.15.1"
+    commonsIoVersion = "2.16.0"
     commonsLang3Version = "3.14.0"
     commonsNetVersion = "3.10.0"
     commonsTextVersion = "1.11.0"
