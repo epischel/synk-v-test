@@ -71,7 +71,7 @@ ext {
     swaggerAnnotationsVersion = "1.6.13"
     xdocreportVersion = "2.0.4"
     failsafeVersion = "3.3.2"
-    microMeterVersion = "1.12.3"
+    microMeterVersion = "1.12.4"
 
     // test deps versions
     assertjVersion = "3.25.3"
