@@ -69,7 +69,7 @@ ext {
     reflectionsVersion = "0.10.2"
     jsonwebtokenVersion = "0.12.5"
     swaggerAnnotationsVersion = "1.6.13"
-    xdocreportVersion = "2.0.4"
+    xdocreportVersion = "2.0.6"
     failsafeVersion = "3.3.2"
     microMeterVersion = "1.12.3"
 
