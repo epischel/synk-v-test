@@ -17,7 +17,7 @@ ext {
     // Spring- und Spring-Deps versions
     springBootVersion = "2.7.18"
     springVersion = "5.3.31"
-    springSecurityVersion = "5.8.10"
+    springSecurityVersion = "6.2.4"
     springSecurityKerberosVersion = "1.0.1.RELEASE"
     springWsVersion="3.1.8" // neu
     
